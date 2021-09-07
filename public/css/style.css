@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+    /* border: 1px solid red; */
+    position:absolute;
+    margin-left: 40%;
+    margin-top: 5px;
+    /* margin-right: 50%; */
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+header ul li{
+    color: white;
+    list-style: none;
+    font-size: 3rem;
+    padding-right: 40px;
+    text-decoration: none;
+    list-style-type: none
+}
+/* hover effect on header icon */
+
+header ul li:hover{
+    color: #00F9B8;
+    transition: 0.5s;
+}
+
+.cointainer{
+     /* border: 1px solid rgb(47, 0, 255); */
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+
+    
+}
+
+.contact_form{    
+    background-color: #010309;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* height: 100vh; */
+}
+
+
+.contact_form h1{
+
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.fields{
+    /* border: 1px solid green; */    
+    display: flex;
+    flex-direction: column;
+    /* margin: 20rem; */
+    margin: 0rem 18rem;
+    margin-top: 9%;
+    box-shadow: -3px 3px 40px #B7112A;
+}
+.fields input{
+    /* border: 10px solid red; */
+    margin: 28px 20px;
+    height: 4rem;
+    outline: none;
+    border-radius: 1px;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+}
+
+#send{
+    outline: none;
+    background: none;
+    background-color: #B7112A;
+    border: none;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    border-radius: 20px;
+
+    height: 5rem;
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+/*  second div */
+
+.contact_us{
+    
+    /* border: 1px solid green; */
+    background-color: #10203D; 
+    width: 40%;
+    /* height: 100vh; */
+
+}
+
+.contact_us h1{
+    padding-top: 20px;
+    /* padding-left: 20px; */
+    padding-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+
+}
+.main-container{
+    /* border: 1px solid red; */
+    margin-top: 25%;
+    margin-left: 40px;
+}
+
+
+
+.info h1{
+    
+    color: #B7112A;
+    /* padding-left: 20px; */
+    /* font-size: 2rem; */
+}
+.info h3{
+    color: #6DA8F2;
+    font-size: 2rem;
+
+    /* padding-left: 20px; */
+}
+.social_media{
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    /* width: 1; */
+}
+.social_media img{
+    width: 30px;
+    margin-right: 10px;
+    /* height: 30p; */
+}
