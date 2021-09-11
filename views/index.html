@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="shortcut icon" href="../public/images/favicon3.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
 </head>
@@ -13,12 +14,15 @@
 
     <div class="cointainer">
         <header>
-            <ul>
-               <a href="/home"> <li>Home</li></a>
-               <a href="/contact"> <li>Contact Us</li></a>
-               <a href="/about"> <li>About</li></a>
+            <div class="headerr">
+
+                <a href="/home"> <li>Home</li></a>
+                <a href="/contact"> <li>Contact Us</li></a>
+                <a href="/about"> <li>About</li></a>
+
+            </div>
                
-            </ul>
+           
         </header>
      
         <div class="contact_form">
@@ -26,18 +30,23 @@
             <h1>Contact Form</h1>
 
             <div class="fields">
-                <input type="text" id"name" required placeholder="Name">
-                <input type="email" id"email" placeholder="Email">
-                <input type="tel" id"Phone_no" placeholder="Phone No">
-                <input type="text" id"message" placeholder="Message">
 
-                
+                <form action="POST" >
+                    <input type="text" id"name" required placeholder="Name">
+                    <input type="email" id"email" placeholder="Email">
+                    <input type="tel" id"Phone_no" placeholder="Phone No">
+                    <input type="text" id"message" placeholder="Message">
+    
+                    
+             
+           
 
             </div>
 
-            <button type="button" id="send"> send </button>
+            <input type="button" id="send" value="send"></input>
 
         </div>
+    </form>
 
         <div class="contact_us">
 
@@ -63,8 +72,7 @@
                     <a href="https://www.instagram.com/sudhanshu_maurya_/">  <img src="../public/images/instagram.png" alt=""> </a>
 
                   
-                      
-                       
+                              
                     </div>
     
                 </div>

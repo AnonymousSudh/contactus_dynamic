@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon3.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
 </head>
@@ -24,20 +25,23 @@
         <div class="contact_form">
 
             <h1>Contact Form</h1>
-
             <div class="fields">
-                <input type="text" id"name" required placeholder="Name">
-                <input type="email" id"email" placeholder="Email">
-                <input type="tel" id"Phone_no" placeholder="Phone No">
-                <input type="text" id"message" placeholder="Message">
+<form autocomplete="on" action="/" method="POST">
+
+
+                <input type="text" name="name" id"name" required placeholder="name" >
+                <input type="email" name="email" id"email" placeholder="Email" >
+                <input type="tel" name="phoneno" id"Phone_no" placeholder="Phone No">
+                <input type="text" name="message" id"message" placeholder="Message">
 
                 
 
             </div>
 
-            <button type="button" id="send"> send </button>
+            <input type="submit" id="send" value="send"></input>
 
         </div>
+        </form>
 
         <div class="contact_us">
 
@@ -63,8 +67,7 @@
                     <a href="https://www.instagram.com/sudhanshu_maurya_/">  <img src="images/instagram.png" alt=""> </a>
 
                     <a href="https://www.linkedin.com/in/sudhanshu-maurya-73b36a180/">  <img src="images/twitter.png" alt=""> </a>
-                      
-                       
+                                             
                     </div>
     
                 </div>

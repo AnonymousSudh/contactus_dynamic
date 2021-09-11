@@ -21,7 +21,7 @@ const contactSchema = new mongoose.Schema({
 })
 
 // creating a new collection
-const Contactus = new mongoose.model("Contactus", contactSchema);
+const Contact = new mongoose.model("Contactu", contactSchema);
 
 // export model to another file
-module.exports = Contactus;
+module.exports = Contact;

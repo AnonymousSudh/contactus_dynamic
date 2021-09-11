@@ -14,23 +14,27 @@ header{
     margin-top: 5px;
     /* margin-right: 50%; */
 }
-header ul{
+.headerr{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style: none;
+    /* text-decoration: none; */
 }
-header ul li{
+.headerr li{
     color: white;
     list-style: none;
     font-size: 3rem;
     padding-right: 40px;
+    /* text-decoration: none; */
+    /* list-style-type: none; */
+}
+a{
     text-decoration: none;
-    list-style-type: none
 }
 /* hover effect on header icon */
 
-header ul li:hover{
+.headerr li:hover{
     color: #00F9B8;
     transition: 0.5s;
 }
@@ -80,6 +84,7 @@ header ul li:hover{
     background: none;
     outline: none;
     border: none;
+    caret-color: rgb(0, 0, 0);
     color: white;
     font-size: 2rem;
 }
