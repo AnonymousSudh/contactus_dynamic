@@ -11,7 +11,7 @@ header{
     /* border: 1px solid red; */
     position:absolute;
     margin-left: 40%;
-    margin-top: 5px;
+    margin-top: .5rem;
     /* margin-right: 50%; */
 }
 .headerr{
@@ -25,7 +25,7 @@ header{
     color: white;
     list-style: none;
     font-size: 3rem;
-    padding-right: 40px;
+    padding-right: 4.0rem;
     /* text-decoration: none; */
     /* list-style-type: none; */
 }
@@ -59,8 +59,8 @@ a{
 
 .contact_form h1{
 
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 5.0rem;
+    padding-left: 5.0rem;
     color: white;
     font-size: 5rem;
     font-weight: 900;
@@ -71,22 +71,23 @@ a{
     display: flex;
     flex-direction: column;
     /* margin: 20rem; */
-    margin: 0rem 18rem;
+    margin: 0rem 2rem;
     margin-top: 9%;
-    box-shadow: -3px 3px 40px #B7112A;
+    box-shadow: -0.3rem 0.3rem 4.0rem #B7112A;
 }
 .fields input{
     /* border: 10px solid red; */
-    margin: 28px 20px;
+    margin: 2.8rem 2.0rem;
     height: 4rem;
     outline: none;
     border-radius: 1px;
     background: none;
     outline: none;
     border: none;
-    caret-color: rgb(0, 0, 0);
+    caret-color: rgb(255, 255, 255);
     color: white;
     font-size: 2rem;
+   
 }
 
 #send{
@@ -100,9 +101,10 @@ a{
     border-radius: 20px;
 
     height: 5rem;
-    margin-top: 50px;
+    margin-top: 5.0rem;
     margin-left: 35%;
     margin-right: 35%;
+    cursor: pointer;
     
 }
 
@@ -118,9 +120,9 @@ a{
 }
 
 .contact_us h1{
-    padding-top: 20px;
+    padding-top: 2.0rem;
     /* padding-left: 20px; */
-    padding-bottom: 20px;
+    padding-bottom: 2.0rem;
     color: rgb(255, 255, 255);
     font-size: 5rem;
 
@@ -128,7 +130,7 @@ a{
 .main-container{
     /* border: 1px solid red; */
     margin-top: 25%;
-    margin-left: 40px;
+    margin-left: 4.0rem;
 }
 
 
@@ -147,11 +149,47 @@ a{
 }
 .social_media{
     /* border: 1px solid red; */
-    margin-top: 40px;
+    margin-top: 4.0rem;
     /* width: 1; */
 }
 .social_media img{
-    width: 30px;
-    margin-right: 10px;
+    width: 3.0rem;
+    margin-right: 1rem;
     /* height: 30p; */
 }
+
+
+     /* resposive coading from here  */
+
+     @media screen and (max-width:768px) {
+         
+
+
+        .cointainer{
+            flex-direction: column;
+
+            
+        }
+        .headerr{
+            display: none;
+        }
+
+        .contact_form{
+            width: 100%;
+        }
+        #send{
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact_us{
+            width: 100%;
+        }
+        .social_media{
+            margin-bottom: 1.5rem;
+        }
+
+
+
+
+
+     }
