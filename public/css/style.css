@@ -72,14 +72,16 @@ a{
 
 .fields{
     /* border: 1px solid green;     */
-    /* margin: 20rem; */
+    
     margin: 0rem 10rem;
-    margin-top: 9%;
+    margin-top: 10%;
+    /* padding-top: 10%;; */
     box-shadow: -0.3rem 0.3rem 4.0rem #B7112A;
 }
 .fields input{
-    /* border: 10px solid red; */
-    margin: 2.8rem 2.0rem;
+    /* border: 10px solid rgb(100, 247, 3); */
+    width: 90%;
+    margin: 3.8rem 2.0rem;
     height: 6rem;
     outline: none;
     display: flex;
@@ -91,10 +93,31 @@ a{
     caret-color: rgb(255, 255, 255);
     color: white;
     font-size: 2rem;
+    /* filter: grayscale(100%) brightness(110%); */
+    overflow: hidden;
+    
    
 }
 
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+input:-webkit-autofill:valid,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus
+{
+    -webkit-transition-delay: 999997s;
+    -webkit-text-fill-color:#ffffff;
+}
+
+
+
+
 #send{
+    /* border: 10px solid rgb(128, 33, 33); */
     outline: none;
     background: none;
     background-color: #B7112A;
@@ -103,12 +126,13 @@ a{
     font-size: 2.4rem;
     font-weight: lighter;
     border-radius: 20px;
-
+    width: 20%;
     height: 5rem;
-    margin-top: 5.0rem;
+    /* margin-top: ./.0rem; */
     margin-left: 35%;
     margin-right: 35%;
     cursor: pointer;
+    
     
 }
 
