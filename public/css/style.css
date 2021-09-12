@@ -129,7 +129,7 @@ select:-webkit-autofill:focus
     border-radius: 20px;
     width: 20%;
     height: 5rem;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     margin-left: 35%;
     /* margin-right: 35%; */
     cursor: pointer;
@@ -213,7 +213,12 @@ select:-webkit-autofill:focus
             width: 100%;
         }
         #send{
-            margin-bottom: 1.5rem;
+            /* margin-bottom: .5rem; */
+        }
+
+        .fields{
+            margin: 0px 10%;
+            /* width: 50%; */
         }
         
         .contact_us{
