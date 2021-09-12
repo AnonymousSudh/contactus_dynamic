@@ -4,7 +4,9 @@
 }
 html{
     font-size: 60.5%;
-    position: fixed;
+    /* position: fixed; */
+    overflow: hidden;
+
 }
 
 header{
@@ -166,6 +168,12 @@ a{
      @media screen and (max-width:768px) {
          
 
+        body{
+            overflow: scroll;
+            /* scroll-behavior: smooth; */
+            height: 100%;
+            /* position: relative; */
+        }
 
         .cointainer{
             flex-direction: column;
