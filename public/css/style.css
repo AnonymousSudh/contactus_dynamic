@@ -58,6 +58,7 @@ a{
     flex-direction: column;
     width: 60%;
     height: 100vh;
+  
 }
 
 
@@ -73,7 +74,7 @@ a{
 .fields{
     /* border: 1px solid green;     */
     
-    margin: 0rem 10rem;
+    margin: 0rem 15rem;
     margin-top: 10%;
     /* padding-top: 10%;; */
     box-shadow: -0.3rem 0.3rem 4.0rem #B7112A;
@@ -82,6 +83,7 @@ a{
     /* border: 10px solid rgb(100, 247, 3); */
     width: 90%;
     margin: 3.8rem 2.0rem;
+
     height: 6rem;
     outline: none;
     display: flex;
@@ -109,7 +111,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus
 {
-    -webkit-transition-delay: 999997s;
+    -webkit-transition-delay: 999990s;
     -webkit-text-fill-color:#ffffff;
 }
 
@@ -117,20 +119,19 @@ select:-webkit-autofill:focus
 
 
 #send{
-    /* border: 10px solid rgb(128, 33, 33); */
+
     outline: none;
-    background: none;
+  
     background-color: #B7112A;
-    border: none;
     color: white;
     font-size: 2.4rem;
     font-weight: lighter;
     border-radius: 20px;
     width: 20%;
     height: 5rem;
-    /* margin-top: ./.0rem; */
+    margin-top: 35px;
     margin-left: 35%;
-    margin-right: 35%;
+    /* margin-right: 35%; */
     cursor: pointer;
     
     
